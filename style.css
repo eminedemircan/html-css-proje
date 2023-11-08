@@ -1,0 +1,93 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+video{
+  height: 100vh;
+  width: 100%;
+  background-position:absolute;
+  z-index: 10;
+  object-fit: cover;
+}
+.content{
+    background: rgba(0,0,0,0.5);
+    height: 100%;
+    width: 100%;
+    z-index: 20;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+h1{
+  color: #f3e9ddd7!important;
+  font-family: 'Courier New', Courier, monospace;
+  text-shadow: 4px 3px 4px #f1c994 ;
+ 
+  
+}
+.liste{
+    text-decoration: none;
+    color: #FAE7C9;
+    font-size: 20px;
+
+}
+.li{
+    list-style-type:square;
+    font-size: 24px;
+    font-family: cursive;
+    color:rgb(77, 22, 22) ;
+    
+}
+.orta{
+    height: 300vh;
+    background-color: #D8D9DA;
+    width: 100%;
+
+    
+}
+.baslik{
+    color:rgb(77, 22, 22) ;
+}
+.text-1{
+    border: 2px none ;
+    height: 200px;
+    width: 400px;
+
+   
+    
+}
+p{
+    color:rgb(77, 22, 22) ;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#362222;
+    gap: 400px;
+    padding: 22px;
+    color: #ECE3CE;
+    font-size: larger;
+}
+
+.ikon{
+    
+    display: flex;
+    align-items: center;
+}
+.bilgi li a {
+    text-decoration: none;
+    color:#ECE3CE ;
+}
